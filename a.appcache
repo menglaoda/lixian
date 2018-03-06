@@ -1,9 +1,12 @@
 CACHE MANIFEST:
 #写在文件第一行，用来声明这是一个manifest文件
+
 CACHE:
 #下面的都是缓存的文件
 main.html
+
 NETWORK:
 #每次都从网络请求，然后缓存，指定的文件总是从网络上请求最新的
+
 FALLBACK:
 #指定的文件若是找不到，会被重定向到新的地址。规范都是大写。
